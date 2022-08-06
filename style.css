@@ -10,7 +10,7 @@ body {
 }
 
 header,
-form,
+.add-todo,
 .todo-container, 
 .todo {
     display: flex;
@@ -23,16 +23,16 @@ header {
 }
 
 header,
-form {
+.add-todo {
     min-height: 20vh;
 }
 
-form input {
+.add-todo input {
     margin-right: 5px;
     background-color: #ee0b0b;
 }
 
-form input, form button {
+.add-todo input, .add-todo button {
     padding: 0.5rem;
     border: none;
     background-color: white;  
@@ -40,7 +40,7 @@ form input, form button {
     font-size: 2rem;
 }
 
-form button {
+.add-todo button {
     color: #c40fca;
     background-color: white;
     cursor: pointer;
@@ -48,7 +48,7 @@ form button {
     border-radius: 50%;
 }
 
-form button:hover {
+.add-todo button:hover {
     background-color: #a15dda;
     color:white;
     border-radius: 50%;
@@ -63,9 +63,7 @@ form button:hover {
 .trash-btn,
 .complete-btn {
     border-radius: 50%;
-
 }
-
 
 .todo {
     margin: 0.5rem;
